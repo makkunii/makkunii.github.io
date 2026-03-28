@@ -1,407 +1,49 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Makkunii | Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
-		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-		<style>
-			#more {display: none;}
-		</style>
-	</head>
-	<body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light">
+    
+    <title>Mark Eugene Manuel | Full-Stack Software Engineer & UI/UX Designer</title>
+    <meta name="title" content="Mark Eugene Manuel | Full-Stack Software Engineer & UI/UX Designer">
+    <meta name="description" content="Portfolio of Mark Eugene Manuel (makkunii), a Full-Stack Developer specializing in Laravel, React, and Flutter. Based in Bataan, Philippines. View my technical arsenal and featured projects.">
+    <meta name="keywords" content="Mark Eugene Manuel, makkunii, Software Engineer Bataan, Laravel Developer Philippines, React Developer, Flutter Mobile Developer, Full Stack Web Developer">
+    <meta name="author" content="Mark Eugene Manuel">
+    
+    <link rel="canonical" href="https://makkunii.com/" />
 
-		<!-- start of header -->
-		<header class="header">
-			<div class="logo">
-				<a href="index.html" ><strong>M A K K U N I I</strong> <span>| P O R T F O L I O</span></a>
-				<!-- nav icon -->
-				<nav>
-					<a href="#menu"><i class="fa-solid fa-bars menu-icon" onclick="openNav()"></i></a>	
-				</nav>
-				<!-- popup menu -->
-				<div id="myNav" class="overlay" onclick="closeNav()">	
-					<a class="closebtn">&times;</a>
-					<div class="overlay-content">
-						<a href="#home">Home</a>
-						<a href="#projects">Projects</a>
-						<a href="#certificates">Cetificates</a>
-						<a href="#contact">Contact</a>
-					</div>
-				</div>	
-			</div>
-		</header>
-		<!-- end of header -->
-		<div id="home" class="content-header">
+    <link rel="icon" type="image/png" href="./favicon.png" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#0f172a">
 
-			<!-- typing message -->
-			<div class="content-message ">
-				<div id="typed-strings">
-					<h>A <strong class="strongTitle">Developer?</strong></h>
-					<h1>A <strong class="strongTitle">Vampire</strong> who stays up late at night?</h1>
-					<h1>Hi! I'm <strong class="strongTitle">Mark Eugene</strong>, nice to meet you</h1>
-				</div>
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://makkunii.com/">
+    <meta property="og:title" content="Mark Eugene Manuel | Technical Portfolio">
+    <meta property="og:description" content="Explore the digital sanctuary of a Full-Stack Engineer. Specialized in high-performance web and mobile applications.">
+    <meta property="og:image" content="https://makkunii.com/og-image.png">
+    <meta property="og:site_name" content="MAKKUNII Portfolio">
 
-				<span id="typed"></span>
-			</div>
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://makkunii.com/">
+    <meta property="twitter:title" content="MAKKUNII | Software Engineer">
+    <meta property="twitter:description" content="Full-Stack Developer specializing in Laravel, React, and Flutter. Currently based in Bataan.">
+    <meta property="twitter:image" content="https://makkunii.com/og-image.png">
 
-			<!-- href/resume button  -->
-			<div class="content-button">
-				<a href="files/Manuel, Mark Eugene G. - Resume.pdf" download="makkunii resume"><button id="btn-resume" class="btn-resume" type="button">RESUME</button></a>
-			</div>	
-		</div>
-		<svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100px; width: 100%; z-index:-1">
-			<path d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z" style="stroke: none;fill:black"></path>
-		</svg>
+    <meta name="msapplication-TileColor" content="#0f172a">
+    <meta name="msapplication-TileImage" content="./android-chrome-192x192.png">
 
-		<!-- infinity scroll -->
-		<span onclick="scrollDown()"><i class="fa-solid fa-angles-down" id="infinity-scroll"></i></span>
-		  
-		<!-- content projects -->
-		<div class="content" id="projects">
-
-			<!-- title content -->
-			<section>
-				<div>
-					<h1 class="title-content" >Projects</h1><br>
-					<h3><strong>I belive that if you're having fun it's not work at all</strong>, Here are some of the projects I've done during my time learning web development</h3>
-				</div>
-			</section><br>
-			
-			<!-- grid revealing gallery  -->
-			<div class="container reveal">
-				<div class="row-projects"> 
-					<div class="column">
-					  <div class="image-container">
-						<img src="/images/pic01.jpg">
-						<div class="project-title"><h1>Kakilabot</h1>
-							<p>horror story app</p>
-						</div>
-					  </div>
-
-					   <div class="image-container">
-						 <img src="/images/pic02.jpg">
-						 <div class="project-title"><h1>Kardia</h1>
-							<p>Appointment | Queueing | Inventory | User management</p>
-						</div>
-					  </div>
-
-					  <div class="image-container">
-						<img src="/images/pic12.jpg">
-						<div class="project-title"><h1>To Do list</h1>
-							<p>Pink Panther theme to do list</p>
-					   </div>
-					 </div>
-					 
-					
-					</div>
-					<div class="column">
-						<div class="image-container">
-							<img src="/images/pic03.jpg">
-							<div class="project-title"><h1>TRB MALL</h1>
-							<p>E-commerce Website</p>
-							</div>
-						  </div>
-						  <div class="image-container">
-							<img src="/images/pic04.jpg">
-							<div class="project-title"><h1>IReady</h1>
-							<p>disaster information app</p>
-							</div>
-						  </div>
-						  <div class="image-container">
-							<img src="/images/pic05.jpg">
-							<div class="project-title"><h1>ITask</h1>
-							<p>Google login task app</p>
-							</div>
-						  </div>
-
-
-						  <div class="image-container">
-							<img src="/images/pic14.jpg">
-							<div class="project-title"><h1>Krusty Money</h1>
-							<p>Expense and Income Tracker</p>
-							</div>
-						  </div>
-						  
-						
-					</div>  
-					<div class="column">
-						<div class="image-container">
-							<img src="/images/pic06.jpg">
-							<div class="project-title"><h1>CITE ONE</h1>
-							<p>Online Enlistment System</p>
-							</div>
-						  </div>
-						  <div class="image-container">
-							<img src="/images/pic07.jpg">
-							<div class="project-title"><h1>Ordering System</h1>
-							<p>online ordering for local diner</p>
-							</div>
-						  </div>
-						  <div class="image-container">
-							<img src="/images/pic08.jpg">
-							<div class="project-title"><h1>Personal MP3</h1>
-							<p>own song composition playlist</p>
-							</div>
-						  </div>
-
-						  <div class="image-container">
-							<img src="/images/pic13.jpg">
-							<div class="project-title"><h1>Social Card</h1>
-							<p>Social Media Information</p>
-							</div>
-						  </div>
-						
-					
-					</div>
-					<div class="column">
-						<div class="image-container">
-							<img src="/images/pic09.jpg">
-							<div class="project-title"><h1>Mondee Air</h1>
-							<p>Aircon Business</p>
-							</div>
-						  </div>
-						  <div class="image-container">
-							<img src="/images/pic10.jpg">
-							<div class="project-title"><h1>Math Lover</h1>
-							<p>math quiz app</p>
-							</div>
-						  </div>
-
-						  <div class="image-container">
-							<img src="/images/pic15.jpg">
-							<div class="project-title"><h1>TRB Padala</h1>
-							<p>Logistic System</p>
-							</div>
-						  </div>
-					</div>
-				  </div>
-
-			</div><br>		
-
-		</div>
-
-
-		<div id="certificates" class="container certificates reveal">
-			<section>
-				<div>
-					<div class="folder">
-						<h1 class="title-content-certificate">Certificates</h1><br>
-						<h3>Here are some of my academic achievements, seminars and training</h3><br>
-						<button class="collapsible"><i class="fa-regular fa-folder-open"></i> Click Here</button>
-						<div class="content-certificate">
-							<div class="content">
-								<div class="row-projects"> 
-									<div class="column">
-									  <div class="image-container">
-										<img src="/certificates/0001.jpg">
-									  </div>
-									   <div class="image-container">
-										<img src="/certificates/0002.jpg">
-									  </div>
-							
-									  <div class="image-container">
-										<img src="/certificates/0003.png">
-									  </div>
-							
-									  <div class="image-container">
-										<img src="/certificates/0004.jpg">
-									  </div>
-									 
-									
-									</div>
-									<div id="loaded" class="column">
-										<div class="image-container">
-											<img src="/certificates/0005.jpg">
-										</div>
-										<div class="image-container">
-											<img src="/certificates/0006.jpg">
-										</div>
-										<div class="image-container">
-											<img src="/certificates/0007.jpg">
-										  </div>
-										  <div class="image-container">
-											<img src="/certificates/0008.jpg">
-										  </div>
-									</div>  
-									<div class="column">
-										<div class="image-container">
-											<img src="/certificates/0009.jpg">
-										</div>
-										<div class="image-container">
-											<img src="/certificates/0010.jpg">
-										</div>
-										<div class="image-container">
-											<img src="/certificates/0011.jpg">
-										</div>
-										<div class="image-container">
-											<img src="/certificates/0012.jpg">
-										</div>
-										
-									
-									</div>
-									<div class="column">
-										<div class="image-container">
-											<img src="/certificates/0014.png">
-										</div>
-										<div class="image-container">
-											<img src="/certificates/0015.png">
-										</div>
-										<div class="image-container">
-											<img src="/certificates/css-cert.jpg">
-										</div>
-									</div>
-								</div>
-							</div>
-							
-						</div>
-					</div>
-				</div>
-			</section>
-			
-			<br>
-
-
-		
-			
-
-
-			<!-- <div id="more-content">
-					
-			</div> -->
-
-		</div>
-
-
-		<div id="contact" class="container contact reveal">
-			
-			<div class="row-contact"> 
-				<div class="column-contact">
-					<div class="contact-form-container">
-						<h1>Send me an Email</h1><br>
-					<form action="https://formsubmit.co/mace21218@gmail.com" method="POST">
-						<div class="row-contact-form">
-						  <div class="col-75">
-							<input type="text" id="email" name="name" placeholder="Enter Name">
-						  </div>
-						</div><br>
-						
-						<div class="row-contact-form">
-						  <div class="col-75">
-							<input type="email" id="email" name="email" placeholder="Enter your Email">
-						  </div>
-						</div><br>
-					
-						<div class="row-contact-form">
-						  <div class="col-75">
-							<textarea id="subject" name="subject" placeholder="Tell me something.."></textarea>
-						  </div>
-						</div><br>
-						
-						<div class="row-contact-form">
-						  <input type="submit" value="Submit">
-						</div>
-					  </form>
-					</div>
-				</div>
-				<div class="column-contact">
-					<br>
-					<div class="contact-box">
-						<div class="social-content">
-							<div class="qr">
-								<img id="social-image" class="social-image" src="./images/profile.jpg" alt="">
-							</div>
-							<address>
-								<h2 class="contact-text">Contact Information</h2>
-								<p class="contact-text"><a href="mailto:mmanuel.euguene@gmail.com"><i class="fa-solid fa-envelope"></i> mmanuel.euguene@gmail.com</a></p>
-								<p class="contact-text"><a href="tel:09751932808"><i class="fa-solid fa-phone"></i> 0975 193 2808</a></p>
-								<p class="contact-text"><i class="fa-solid fa-map-location"><a href="https://www.google.com/maps/place/Cabanatuan+City,+Nueva+Ecija/@15.5018164,120.9105588,12z/data=!3m1!4b1!4m5!3m4!1s0x33972936672fe8a5:0xcf7746734839022b!8m2!3d15.4994329!4d121.0105733" target="_blank">
-								</i> Nueva Ecija Province, Cabnatuan City</p>
-								</a><br><br>
-								<!-- <div class="social-media">
-									<a href="https://www.facebook.com/makkunii"><i class="fa-brands fa-facebook"></i></a>
-									<a href="https://www.twitter.com/makkunii"><i class="fa-brands fa-twitter"></i></a>
-									<a href="https://www.instagram.com/makkunii"><i class="fa-brands fa-square-instagram"></i></a>
-									<a href="https://github.com/makkunii"><i class="fa-brands fa-github"></i></a>
-									<a href="https://t.me/makkunii"><i class="fa-brands fa-telegram"></i></a>
-								</div> -->
-							</address><br>
-							<!-- <hr><br>
-							<h3>My Buddies: </h3><br>
-							<h3><i class="fa-solid fa-user"></i> 0975 193 2808</h3><br>
-							<h3><i class="fa-solid fa-user"></i> </h3><br><br> -->
-						</div>
-					</div>
-					
-				</div>  
-			  
-			  </div>
-		
-
-		</div><br><br>
-		
-		
-		<div id="footer" class="footer">
-			© 2020 - Created by makkunii.
-		</div>	
-
-
-		<!-- scipts -->
-		<script src="assets/js/main.js"></script>
-		<script src="assets/js/three.r134.min.js"></script>
-		<script src="assets/js/vanta.net.min.js"></script>
-		
-		<!-- vanta script -->
-		<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
-}
-
-			VANTA.NET({
-			el: ".content-header",
-			mouseControls: true,
-			touchControls: true,
-			gyroControls: false,
-			minHeight: 200.00,
-			minWidth: 200.00,
-			scale: 1.00,
-			scaleMobile: 1.00,
-			color: 0x1c82ff,
-  			backgroundColor: 0x0,
-			})
-			
-			
-			var coll = document.getElementsByClassName("collapsible");
-			var i;
-
-			for (i = 0; i < coll.length; i++) {
-			coll[i].addEventListener("click", function() {
-			this.classList.toggle("active");
-			var content = this.nextElementSibling;
-			if (content.style.maxHeight){
-				content.style.maxHeight = null;
-			} else {
-				content.style.maxHeight = content.scrollHeight + "px";
-			} 
-			});
-			}
-		</script>
-		
-	</body>
+    <link rel="preconnect" href="https://cdn.simpleicons.org">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script type="module" crossorigin src="./assets/index-DFuiTk-j.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CCEHXwuI.css">
+  </head>
+  <body>
+    <a href="#home" class="sr-only focus:not-sr-only absolute z-[100] bg-white p-4 text-blue-600 font-bold underline">
+      Skip to content
+    </a>
+    
+    <div id="root"></div>
+  </body>
 </html>
-
-<!-- reverted -->
